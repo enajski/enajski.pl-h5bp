@@ -1,0 +1,62 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+    box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+    min-height: 100%;
+}
+
+body {
+	padding-top: 1em;
+	min-width: 700px;
+}
+
+.hero-unit {
+	background: url(../img/brace.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 960px;
+	text-align: center;
+	padding: 135px;
+	text-shadow: 0px 125px 40px #292929;
+	filter: dropshadow(color=#292929, offx=0, offy=125);
+
+}
+
+.span4 {
+    text-align: center;
+}
+
+.span4 img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+footer a {
+	padding-left: 40px;
+}
+
+footer span {
+	display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
