@@ -14,6 +14,14 @@ body {
 	min-width: 700px;
 }
 
+a {
+	/*color: #333;*/
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 .hero-unit {
 	background: url(../img/brace.png);
 	background-repeat: no-repeat;
@@ -26,8 +34,11 @@ body {
 
 }
 
-.span4 {
+.span4 h2 {
     text-align: center;
+}
+h2 a {
+    color: #292929;
 }
 
 .span4 img {
@@ -39,6 +50,7 @@ body {
 
 footer a {
 	padding-right: 40px;
+
 }
 
 footer span {
