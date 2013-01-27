@@ -29,9 +29,9 @@ a:hover {
 	max-width: 960px;
 	text-align: center;
 	padding: 135px;
-	text-shadow: 0px 125px 40px #292929;
+/*	text-shadow: 0px 125px 40px #292929;
 	filter: dropshadow(color=#292929, offx=0, offy=125);
-
+*/
 }
 
 .container h2 {
