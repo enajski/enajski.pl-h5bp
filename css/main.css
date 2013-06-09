@@ -1,80 +1,60 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-html {
-    box-shadow: inset 0 0 100px hsla(0,0%,0%,.4);
-    min-height: 100%;
-}
-
 body {
-	padding-top: 1em;
-	min-width: 700px;
-  color: #2c3e50;
+  background: #F39C12;
+  background: rgba(236, 240, 241,1.0);
 }
 
 a {
-	/*color: #333;*/
+  text-decoration: none;
 }
 
-a:hover {
-	text-decoration: none;
+.mega-list {
+  padding-bottom: 50px;
 }
 
-.hero-unit {
-	background: url(../img/brace.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	max-width: 960px;
-	text-align: center;
-	padding: 135px;
-/*	text-shadow: 0px 125px 40px #292929;
-	filter: dropshadow(color=#292929, offx=0, offy=125);
+.demo-row img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-top: 13px;
+}
+
+.demo-row .planet-wrapper  {
+  border-radius: 100%;
+  height: 225px;
+  width: 225px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+.demo-row :nth-of-type(1) .planet-wrapper  {
+  background: #E67E22;
+  background: rgba(230, 126, 34,0.5);
+}
+
+.demo-row :nth-of-type(2) .planet-wrapper  {
+  background: #27AE60;
+  background: rgba(39, 174, 96,0.5);
+}
+
+.demo-row :nth-of-type(3) .planet-wrapper  {
+  background: #2980B9;
+  background: rgba(41, 128, 185,0.5);
+}
 */
-}
-
-.container h2 {
-    text-align: center;
-}
-
-h2 a {
-    color: #292929;
-}
-
-.container img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 15px;
+footer {
+  padding-top: 15px;
 }
 
 footer a {
-	padding-right: 40px;
+  text-decoration: none;
+  padding-right: 40px;
   color: #2980b9;
 }
 
 footer span {
-	display: block;
+  padding-top: 10px;
+  display: block;
   text-align: center;
 }
-
-#artist-sidebar {
-  text-align: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

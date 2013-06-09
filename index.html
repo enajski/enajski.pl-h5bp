@@ -1,74 +1,84 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Wojtek Franke aka ENAY aka Enaj Enajski</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="css/main.css">
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-        <div class="container">
-            <div class="hero-unit">
-                <h1>WOJTEK FRANKE</h1>
-                <p>aka ENAY aka Enaj Enajski</p>
-            </div>
-            <div class="row">
-                <div class="span4">
-                    <h2><a href="http://apogsasis.org">Digital Artist</a></h2>
-                    <img src="img/role1.png">
-                </div>
-                <div class="span4">
-                    <h2><a href="https://getbase.com">Software Artisan</a></h2>
-                    <img src="img/role2.png">
-               </div>
-                <div class="span4">
-                    <h2><a href="Wojciech Franke - On The Possibility Of Community In Contemporary Technoculture (2010).pdf">Researcher</a></h2>
-                    <img src="img/role3.png">
-                </div>
-            </div>
+    <link rel="shortcut icon" href="images/favicon.ico">
 
-            <hr>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="demo-headline">
+        <h1 class="demo-logo">
+          <!-- <div class="logo"></div> -->
+          Wojtek Franke
+          <small>aka ENAY aka Enaj Enajski</small>
+        </h1>
+      </div> <!-- /demo-headline -->
 
-            <footer>
-                <p><span>
-                    <a href="http://twitter.com/apogsasis">@apogsasis</a>
-                    <a href="http://soundcloud.com/enajski">soundcloud</a>
-                    <a href="http://vimeo.com/user1660167">vimeo</a>
-                    <a href="http://github.com/enajski">github</a>
-                    <a href="http://coderwall.com/enajski">coderwall</a>
-                    <a href="http://www.linkedin.com/pub/wojciech-franke/2b/8a9/42a">linkedin</a>
-                    <a href="vcard.vcf">vcard</a>
-                </span></p>
-            </footer>
-
+      <div class="row demo-row">
+        <div class="span4">
+          <div class="planet-wrapper">
+            <img src="images/portfolio/role1.png" alt="">
+          </div>
+          <a href="artist.html" class="btn btn-large btn-block palette-carrot">Digital Artist</a>
         </div>
+        <div class="span4">
+          <div class="planet-wrapper">
+            <img src="images/portfolio/role2.png" alt="">
+          </div>
+          <a href="https://getbase.com" class="btn btn-large btn-block palette-nephritis">Software Artisan</a>
+        </div>
+        <div class="span4">
+          <div class="planet-wrapper">
+            <img src="images/portfolio/role3.png" alt="">
+          </div>
+          <a href="Wojciech Franke - On The Possibility Of Community In Contemporary Technoculture (2010).pdf" class="btn btn-block btn-large palette-belize-hole">Researcher</a>
+        </div>
+      </div> <!-- /row -->
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+      <footer>
+        <hr>
+        <p><span>
+            <a href="http://twitter.com/apogsasis">@apogsasis</a>
+            <a href="http://soundcloud.com/enajski">soundcloud</a>
+            <a href="http://vimeo.com/user1660167">vimeo</a>
+            <a href="http://github.com/enajski">github</a>
+            <a href="http://coderwall.com/enajski">coderwall</a>
+            <a href="http://www.linkedin.com/pub/wojciech-franke/2b/8a9/42a">linkedin</a>
+            <a href="vcard.vcf">vcard</a>
+        </span></p>
+      </footer>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+<!--
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.stacktable.js"></script>
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="js/application.js"></script>
+  -->
+    </div>
+  </body>
 </html>
