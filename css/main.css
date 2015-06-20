@@ -1,10 +1,14 @@
 body {
-  background: #F39C12;
+/*  background: #F39C12;
   background: rgba(236, 240, 241,1.0);
+*/
+  background-image: url(../images/background.svg);
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
+  color: #2980B9;
 }
 
 .mega-list {
@@ -27,24 +31,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/*
-.demo-row :nth-of-type(1) .planet-wrapper  {
-  background: #E67E22;
-  background: rgba(230, 126, 34,0.5);
-}
 
-.demo-row :nth-of-type(2) .planet-wrapper  {
-  background: #27AE60;
-  background: rgba(39, 174, 96,0.5);
-}
-
-.demo-row :nth-of-type(3) .planet-wrapper  {
-  background: #2980B9;
-  background: rgba(41, 128, 185,0.5);
-}
-*/
 footer {
   padding-top: 15px;
+  background: none;
 }
 
 footer a {
