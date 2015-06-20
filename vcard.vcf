@@ -1,7 +1,6 @@
 BEGIN:VCARD
 N:Franke;Wojtek;;Mr;
-EMAIL;INTERNET:w.franke@enajski.pl
-EMAIL;INTERNET:wojtek@futuresimple.com
-EMAIL;INTERNET:wojtek@aeroresearch.pl
-URL:http://enajski.pl
+EMAIL;INTERNET:wojtek@enajski.pl
+EMAIL;INTERNET:wojtek@getbase.com
+URL:https://enajski.pl
 END:VCARD
